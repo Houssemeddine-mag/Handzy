@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FingerTip</string>
+    <string name="accessibility_service_description">
+        Allows you to control your device using hand gestures detected through the camera. 
+        The service can perform clicks, scrolls, and cursor movements based on your hand movements.
+    </string>
+</resources>

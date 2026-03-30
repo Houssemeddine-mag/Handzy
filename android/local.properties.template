@@ -1,0 +1,12 @@
+## This file must exist or build will fail
+## Point to your Flutter SDK installation
+
+flutter.sdk=C:\\flutter
+## Or on your system, it might be:
+## flutter.sdk=C:\\Users\\YourUsername\\flutter
+## flutter.sdk=/Users/username/flutter (Mac)
+## flutter.sdk=/home/username/flutter (Linux)
+
+## Find your Flutter SDK path by running: flutter doctor -v
+## Copy this file to: android/local.properties
+## Then update the flutter.sdk path to match your system

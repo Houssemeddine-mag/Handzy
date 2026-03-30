@@ -1,0 +1,34 @@
+name: fingertip
+description: Gesture-controlled Android accessibility service using hand tracking
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.1
+
+  # Shared preferences for settings
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/Handzy.png"
+  min_sdk_size: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/
